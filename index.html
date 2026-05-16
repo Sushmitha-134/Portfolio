@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sushmitha B — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-logo">SB</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Research</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-tag"><span class="dot"></span> Open to Opportunities</p>
+      <h1 class="hero-name">Sushmitha<br /><em>B.</em></h1>
+      <p class="hero-sub">Computer Science Undergraduate &amp; AI Enthusiast</p>
+      <p class="hero-desc">
+        Building scalable, intelligent systems at the intersection of computer vision,
+        web development, and machine learning. CGPA 8.5 · Chennai, India.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-card-stack">
+      <div class="hero-card card-1">
+        <span class="card-icon">🤖</span>
+        <span>AI &amp; ML</span>
+      </div>
+      <div class="hero-card card-2">
+        <span class="card-icon">🚦</span>
+        <span>Computer Vision</span>
+      </div>
+      <div class="hero-card card-3">
+        <span class="card-icon">🌐</span>
+        <span>Full Stack</span>
+      </div>
+      <div class="hero-card card-4">
+        <span class="card-icon">📄</span>
+        <span>IEEE Published</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">01 — About</p>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a motivated Computer Science and Business Systems undergraduate at
+            <strong>RMK Engineering College</strong>, Kavaraipettai, with a strong
+            foundation in software development and AI-driven systems.
+          </p>
+          <p>
+            My work spans real-time computer vision, full-stack analytics platforms,
+            and machine learning pipelines. I'm passionate about building technology
+            that is both technically rigorous and meaningfully user-focused.
+          </p>
+          <p>
+            Beyond code, I hold an <strong>Oracle AI Vector Search Certified Professional</strong>
+            credential and have contributed research published at <strong>IEEE ICRTECT</strong>,
+            along with two Indian patents.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">8.5</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">1</span>
+            <span class="stat-label">IEEE Publication</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Indian Patents</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">02 — Experience</p>
+        <h2 class="section-title">Where I've Worked</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <div>
+                <h3>Virtual Intern</h3>
+                <p class="timeline-company">Infosys Springboard</p>
+              </div>
+              <span class="timeline-badge">Internship</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Developed <strong>ShipmentSure</strong>, an ML-based shipment delay prediction system using XGBoost.</li>
+              <li>Performed data preprocessing, exploratory data analysis (EDA), and feature engineering on logistics data.</li>
+              <li>Evaluated classification models using Accuracy, F1-Score, ROC-AUC, and Confusion Matrix.</li>
+              <li>Built a Streamlit web application for real-time shipment delivery prediction.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>XGBoost</span><span>Streamlit</span><span>EDA</span><span>Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">03 — Projects</p>
+        <h2 class="section-title">Things I've Built</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-number">01</div>
+          <div class="project-icon">🚦</div>
+          <h3>AI-Driven Adaptive Traffic Management System</h3>
+          <p>
+            A real-time traffic management solution leveraging computer vision and
+            deep learning. Detects vehicles, analyzes live traffic flow and congestion,
+            and dynamically improves signal efficiency using processed video data.
+          </p>
+          <div class="project-tech">
+            <span>Python</span><span>YOLO</span><span>OpenCV</span><span>TensorFlow</span>
+          </div>
+          <a href="#" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-icon">📊</div>
+          <h3>GitHub Developer Personality &amp; Productivity Analyzer</h3>
+          <p>
+            A full-stack analytics platform that analyzes GitHub profiles, repository
+            activity, and programming language usage. Generates productivity insights
+            and developer personality classifications with interactive dashboards.
+          </p>
+          <div class="project-tech">
+            <span>React</span><span>Spring Boot</span><span>Java</span><span>MySQL</span><span>GitHub API</span>
+          </div>
+          <a href="#" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-icon">📦</div>
+          <h3>ShipmentSure</h3>
+          <p>
+            Machine learning-based shipment delay prediction system built during
+            Infosys Springboard internship. Features a Streamlit web app for
+            real-time delivery predictions from logistics data.
+          </p>
+          <div class="project-tech">
+            <span>XGBoost</span><span>Streamlit</span><span>Python</span><span>Scikit-learn</span>
+          </div>
+          <a href="#" class="project-link">View on GitHub →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications & Patents -->
+  <section class="publications section" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">04 — Research &amp; IP</p>
+        <h2 class="section-title">Publications &amp; Patents</h2>
+      </div>
+      <div class="pub-grid">
+        <div class="pub-card pub-ieee">
+          <div class="pub-type">IEEE Paper</div>
+          <h3>Intelligent Traffic Control Based on AI — YOLOv8 Vehicle Detection</h3>
+          <p>Published at <strong>IEEE ICRTECT</strong>. Presents an AI-driven approach to intelligent traffic signal control using YOLOv8 for real-time vehicle detection and classification.</p>
+          <div class="pub-badge">📄 IEEE ICRTECT</div>
+        </div>
+        <div class="pub-card">
+          <div class="pub-type">Indian Patent</div>
+          <h3>Smart Yoga Mat with Smartphone Integration</h3>
+          <p>A patented system combining sensor-embedded yoga mats with smartphone connectivity for real-time posture analysis and guided correction.</p>
+          <div class="pub-badge">🇮🇳 Indian Patent</div>
+        </div>
+        <div class="pub-card">
+          <div class="pub-type">Indian Patent</div>
+          <h3>Eggshell Empowerment</h3>
+          <p>A sustainable composite material derived from eggshells for eco-friendly prosthetic manufacturing, advancing green engineering in assistive technology.</p>
+          <div class="pub-badge">🇮🇳 Indian Patent</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">05 — Skills</p>
+        <h2 class="section-title">My Toolkit</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <div class="skill-pills">
+            <span>Java</span><span>Python</span><span>OOP</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Web Technologies</h4>
+          <div class="skill-pills">
+            <span>HTML</span><span>CSS</span><span>React</span><span>Spring Boot</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>AI / ML</h4>
+          <div class="skill-pills">
+            <span>XGBoost</span><span>TensorFlow</span><span>OpenCV</span><span>YOLO</span><span>Streamlit</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Database</h4>
+          <div class="skill-pills">
+            <span>MySQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Tools</h4>
+          <div class="skill-pills">
+            <span>GitHub</span><span>VS Code</span><span>Figma</span><span>Canva</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Certifications</h4>
+          <div class="skill-pills">
+            <span>Oracle AI Vector Search</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">06 — Contact</p>
+        <h2 class="section-title">Let's Connect</h2>
+      </div>
+      <div class="contact-inner">
+        <p class="contact-desc">
+          I'm actively looking for internship and full-time opportunities. Whether you
+          have a role, a project idea, or just want to chat about AI — reach out!
+        </p>
+        <div class="contact-links">
+          <a href="mailto:sushmithaniranja13@gmail.com" class="contact-card">
+            <span class="contact-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p>sushmithaniranja13@gmail.com</p>
+            </div>
+          </a>
+          <a href="tel:+919042750215" class="contact-card">
+            <span class="contact-icon">📱</span>
+            <div>
+              <strong>Phone</strong>
+              <p>+91 90427 50215</p>
+            </div>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-card">
+            <span class="contact-icon">💼</span>
+            <div>
+              <strong>LinkedIn</strong>
+              <p>Connect with me</p>
+            </div>
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-card">
+            <span class="contact-icon">🐙</span>
+            <div>
+              <strong>GitHub</strong>
+              <p>View my code</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; Built by <strong>Sushmitha B</strong> · Chennai, Tamil Nadu</p>
+      <p class="footer-sub">B.Tech Computer Science &amp; Business Systems · RMK Engineering College</p>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+
+    // Nav scroll style
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.nav');
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          navLinks.classList.remove('open');
+          hamburger.classList.remove('active');
+        }
+      });
+    });
+
+    // Intersection Observer for fade-in
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.section, .project-card, .pub-card, .stat-card, .contact-card, .timeline-item')
+      .forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
