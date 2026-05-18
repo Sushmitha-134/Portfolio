@@ -11,7 +11,7 @@
 
   <!-- Navigation -->
   <nav class="nav">
-    <div class="nav-logo">Sushmitha.</div>
+    <div class="nav-logo">Sushmitha</div>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -28,10 +28,9 @@
   <!-- Hero -->
   <section class="hero" id="hero">
     <div class="hero-content">
-      <p class="hero-tag">Open to Opportunities</p>
       <h1 class="hero-name">
-        Sushmitha
-        <span class="gradient-text">B.</span>
+        Sushmitha  B
+  
       </h1>
       <p class="hero-sub">
         Computer Science Undergraduate &middot; AI Enthusiast &middot; Building at the intersection of computer vision, web development, and machine learning.
@@ -100,36 +99,70 @@
   </section>
 
   <!-- Skills -->
-  <section class="skills section" id="skills">
+  <section class="skills-section section" id="skills">
     <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
-      </div>
+      <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+
       <div class="skills-grid">
-        <div class="skill-group">
-          <h4>Languages</h4>
-          <p>Java, Python, OOP</p>
+
+        <div class="skill-card">
+          <div class="skill-icon">💻</div>
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Java</span>
+            <span>OOP(Basics)</span>
+          </div>
         </div>
-        <div class="skill-group">
-          <h4>Web</h4>
-          <p>HTML/CSS, React, Spring Boot</p>
+
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Web</h3>
+          <div class="skill-tags">
+            <span>HTML</span>
+             <span>CSS</span>
+            <span>Spring Boot(Basic)</span>
+          </div>
         </div>
-        <div class="skill-group">
-          <h4>AI / ML</h4>
-          <p>XGBoost, TensorFlow, OpenCV, YOLO, Streamlit</p>
+
+        <div class="skill-card">
+          <div class="skill-icon">🤖</div>
+          <h3>AI / ML</h3>
+          <div class="skill-tags">
+            <span>XGBoost</span>
+            <span>TensorFlow</span>
+            <span>OpenCV</span>
+            <span>YOLO</span>
+            <span>Streamlit</span>
+          </div>
         </div>
-        <div class="skill-group">
-          <h4>Database</h4>
-          <p>MySQL</p>
+
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>Database</h3>
+          <div class="skill-tags">
+            <span>MySQL</span>
+          </div>
         </div>
-        <div class="skill-group">
-          <h4>Tools</h4>
-          <p>Git, VS Code, Figma, Canva</p>
+
+        <div class="skill-card">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>VS Code</span>
+            <span>Figma</span>
+            <span>Canva</span>
+          </div>
         </div>
-        <div class="skill-group">
-          <h4>Certification</h4>
-          <p>Oracle AI Vector Search</p>
+
+        <div class="skill-card">
+          <div class="skill-icon">🏆</div>
+          <h3>Certification</h3>
+          <div class="skill-tags">
+            <span>Oracle AI Vector Search</span>
+          </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -143,7 +176,7 @@
       <div class="projects-grid">
 
         <div class="project-card">
-          <div class="project-img-placeholder">🚦</div>
+          <img src="traffic.jpg" alt="Traffic Management System" class="project-img" />
           <div class="project-content">
             <h3>AI-Driven Adaptive Traffic Management System</h3>
             <p>Real-time traffic management using YOLOv8 computer vision. Detects vehicles, analyzes congestion, and dynamically optimizes signal timing.</p>
@@ -157,7 +190,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-img-placeholder">📊</div>
+          <img src="github analyzer.png" alt="GitHub Analyzer" class="project-img" />
           <div class="project-content">
             <h3>GitHub Developer Personality &amp; Productivity Analyzer</h3>
             <p>Full-stack analytics platform that analyzes GitHub profiles and generates productivity insights with interactive dashboards.</p>
@@ -171,7 +204,7 @@
         </div>
 
         <div class="project-card">
-          <div class="project-img-placeholder">📦</div>
+          <img src="shipmentsure.png" alt="ShipmentSure" class="project-img" />
           <div class="project-content">
             <h3>ShipmentSure</h3>
             <p>ML-based shipment delay prediction system using XGBoost. Features a Streamlit web app for real-time delivery predictions from logistics data.</p>
@@ -195,23 +228,26 @@
         <h2 class="section-title">Research <span class="gradient-text">&amp; Patents</span></h2>
       </div>
       <div class="pub-grid">
-        <div class="pub-card pub-ieee" onclick="openModal('ieee')">
+        <div class="pub-card pub-ieee">
           <div class="pub-type">IEEE Paper</div>
           <h3>Intelligent Traffic Control Based on AI &mdash; YOLOv8 Vehicle Detection</h3>
           <p>Published at <strong>IEEE ICRTECT</strong>. AI-driven traffic signal control using YOLOv8 for real-time vehicle detection.</p>
           <div class="pub-badge">IEEE ICRTECT</div>
+          <button class="pub-btn" onclick="openModal('ieee')">View Details →</button>
         </div>
-        <div class="pub-card" onclick="openModal('yoga')">
+        <div class="pub-card">
           <div class="pub-type">Indian Patent</div>
           <h3>Smart Yoga Mat with Smartphone Integration</h3>
           <p>Sensor-embedded yoga mat with smartphone connectivity for real-time posture analysis and correction.</p>
           <div class="pub-badge">Indian Patent</div>
+          <button class="pub-btn" onclick="openModal('yoga')">View Details →</button>
         </div>
-        <div class="pub-card" onclick="openModal('eggshell')">
+        <div class="pub-card">
           <div class="pub-type">Indian Patent</div>
           <h3>Eggshell Empowerment</h3>
           <p>Sustainable composite from eggshells for eco-friendly prosthetic manufacturing.</p>
           <div class="pub-badge">Indian Patent</div>
+          <button class="pub-btn" onclick="openModal('eggshell')">View Details →</button>
         </div>
       </div>
     </div>
@@ -251,62 +287,67 @@
   <!-- Contact -->
   <section class="contact section" id="contact">
     <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
-      </div>
-      <div class="contact-inner">
-        <p class="contact-desc">
-          I'm actively looking for internship and full-time opportunities. Whether you
-          have a role, a project idea, or just want to chat about AI &mdash; reach out.
-        </p>
-        <div class="contact-links">
-          <a href="mailto:sushmithaniranja13@gmail.com" class="contact-card">
-            <span class="contact-icon">✉️</span>
-            <div>
-              <strong>Email</strong>
-              <p>sushmithaniranja13@gmail.com</p>
-            </div>
-          </a>
-          <a href="tel:+919042750215" class="contact-card">
-            <span class="contact-icon">📱</span>
-            <div>
-              <strong>Phone</strong>
-              <p>+91 90427 50215</p>
-            </div>
-          </a>
-          <a href="https://www.linkedin.com/in/sushmitha-b-557492297/" target="_blank" class="contact-card">
-            <span class="contact-icon">💼</span>
-            <div>
-              <strong>LinkedIn</strong>
-              <p>Connect with me</p>
-            </div>
-          </a>
-          <a href="https://github.com/Sushmitha-134" target="_blank" class="contact-card">
-            <span class="contact-icon">🐙</span>
-            <div>
-              <strong>GitHub</strong>
-              <p>View my code</p>
-            </div>
-          </a>
+      <div class="contact-wrapper">
+
+        <div class="contact-info">
+          <h2 class="contact-title">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="contact-description">
+            Open to internships, research collaborations, and full-time opportunities in AI,
+            software development, and intelligent systems.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:sushmithaniranja13@gmail.com" class="contact-card">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <p>sushmithaniranja13@gmail.com</p>
+              </div>
+            </a>
+            <a href="tel:+919042750215" class="contact-card">
+              <span class="contact-icon">📱</span>
+              <div>
+                <strong>Phone</strong>
+                <p>+91 90427 50215</p>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/sushmitha-b-557492297/" target="_blank" class="contact-card">
+              <span class="contact-icon">💼</span>
+              <div>
+                <strong>LinkedIn</strong>
+                <p>Connect with me</p>
+              </div>
+            </a>
+            <a href="https://github.com/Sushmitha-134" target="_blank" class="contact-card">
+              <span class="contact-icon">🐙</span>
+              <div>
+                <strong>GitHub</strong>
+                <p>View my code</p>
+              </div>
+            </a>
+          </div>
         </div>
 
-        <form class="contact-form">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name" required />
+        <div class="contact-form-col">
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required />
+              </div>
             </div>
             <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="Your email" required />
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me what's on your mind..." required></textarea>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell me what's on your mind..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
-        </form>
+            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          </form>
+        </div>
+
       </div>
     </div>
   </section>
@@ -325,6 +366,7 @@
       <button class="modal-close" onclick="closeModal()" aria-label="Close modal">&times;</button>
 
       <div class="modal-banner" id="modalBanner">
+        <img class="modal-banner-img" id="modalBannerImg" alt="" />
         <div class="modal-banner-placeholder" id="modalBannerIcon"></div>
         <div class="modal-banner-overlay">
           <span class="modal-banner-type" id="modalType"></span>
@@ -409,6 +451,8 @@
       ieee: {
         type: 'IEEE Paper',
         icon: '🚦',
+        image: 'traffic.jpg',
+        objectPosition: 'center',
         gradient: 'linear-gradient(135deg, #1a1a2e, #16213e, #0f3460)',
         title: 'Intelligent Traffic Control Based on AI &mdash; YOLOv8 Vehicle Detection',
         desc: 'AI-powered traffic management using YOLOv8 computer vision for real-time vehicle detection and smart signal optimization.',
@@ -438,6 +482,8 @@
       yoga: {
         type: 'Indian Patent',
         icon: '🧘',
+        image: 'yogamat.png',
+        objectPosition: 'center 35%',
         gradient: 'linear-gradient(135deg, #1a1a2e, #1e2a3a, #1a3a2a)',
         title: 'Smart Yoga Mat with Smartphone Integration',
         desc: 'Sensor-embedded yoga mat with smartphone connectivity for real-time posture analysis and guided correction.',
@@ -466,6 +512,8 @@
       eggshell: {
         type: 'Indian Patent',
         icon: '🥚',
+        image: 'eggshell.png',
+        objectPosition: 'center 45%',
         gradient: 'linear-gradient(135deg, #1a1a2e, #2a1a1a, #1a2a1a)',
         title: 'Eggshell Empowerment',
         desc: 'A sustainable composite from eggshell waste for eco-friendly, affordable prosthetic manufacturing.',
@@ -498,7 +546,18 @@
       const overlay = document.getElementById('modalOverlay');
 
       document.getElementById('modalBanner').style.background = data.gradient;
-      document.getElementById('modalBannerIcon').textContent = data.icon;
+      const bannerImg = document.getElementById('modalBannerImg');
+      const bannerIcon = document.getElementById('modalBannerIcon');
+      if (data.image) {
+        bannerImg.src = data.image;
+        bannerImg.style.display = 'block';
+        bannerImg.style.objectPosition = data.objectPosition || 'center';
+        bannerIcon.style.display = 'none';
+      } else {
+        bannerImg.style.display = 'none';
+        bannerIcon.style.display = 'flex';
+        bannerIcon.textContent = data.icon;
+      }
       document.getElementById('modalType').textContent = data.type;
       document.getElementById('modalTitle').innerHTML = data.title;
       document.getElementById('modalDesc').textContent = data.desc;
